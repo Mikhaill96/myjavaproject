@@ -1,5 +1,4 @@
-//7 задание
-public class numberPrinter {
+public class asd {
     public static void main(String[] args) {
         int number = 0 ;
         boolean negative = number < 0;
