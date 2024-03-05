@@ -1,5 +1,5 @@
 //6 задание
-public class numberChecker {
+public class NumberChecker {
     public static void main(String[] args) {
         int value = 0;
         if ( value >= 0 ) {

@@ -1,5 +1,5 @@
 //4 задание
-public class compareNumbers {
+public class CompareNumbers {
     public static void main(String[] args) {
         int a = 90;
         int b = 111;

@@ -1,5 +1,5 @@
 //1 задание
-public class printThreeWords {
+public class PrintThreeWords {
     public static void main(String[] args) {
         System.out.println("Orange");
         System.out.println("Banana");

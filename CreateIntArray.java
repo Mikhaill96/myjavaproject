@@ -1,5 +1,5 @@
 //14 задание
-public class createIntArray {
+public class CreateIntArray {
     public static int[] createIntArray(int len, int initialValue) {
         int[] array = new int[len];
         for (int i = 0; i < len; i++) {

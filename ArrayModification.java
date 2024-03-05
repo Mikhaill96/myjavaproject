@@ -1,5 +1,5 @@
 //12 задание
-public class arrayModification {
+public class ArrayModification {
     public static void main(String[] args) {
         int[] array = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         for (int i = 0; i < array.length; i++) {

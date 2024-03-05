@@ -1,5 +1,5 @@
 //13 задание
-public class diagonalArray {
+public class DiagonalArray {
     public static void main(String args[]) {
         int counter = 5;
         int[][] table = new int[counter][counter];

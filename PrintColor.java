@@ -1,5 +1,5 @@
 //3 задание
-public class printColor{
+public class PrintColor{
     public static void main(String[] args) {
         int value = - 111;
 
