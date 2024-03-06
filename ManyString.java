@@ -1,9 +1,12 @@
 //8 задание
 public class ManyString {
-    public static void main(String[] args) {
-        for (int i = 0; i < 5; i ++){
-            System.out.println("Хеллоу");
+    public static void StringPrinter (String text, int times) {
+        for (int i = 0; i < times; i++) {
+            System.out.println(text);
         }
     }
-}
 
+    public static void main(String[] args) {
+        StringPrinter ("Хеллоу", 3);
+    }
+}

@@ -1,11 +1,13 @@
 //3 задание
 public class PrintColor{
     public static void main(String[] args) {
-        int value = - 111;
-
+        printColor();
+    }
+    public static void printColor() {
+        int value = -1;
         if (value <= 0) {
             System.out.println("Красный");
-        } else if (value > 0  && value <= 100) {
+        } else if (value <= 100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");

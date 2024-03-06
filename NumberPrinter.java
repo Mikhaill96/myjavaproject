@@ -1,11 +1,11 @@
 //7 задание
 public class NumberPrinter {
+    public static boolean isNegative(int num) {
+        return num < 0;
+    }
     public static void main(String[] args) {
-        int number = 0 ;
-        boolean negative = number < 0;
-        if (negative)
-            System.out.println("true");
-        else
-            System.out.println("false");
+        boolean result;
+        result = isNegative(10);
+        System.out.println(result);
     }
 }

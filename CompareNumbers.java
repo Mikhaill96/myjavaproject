@@ -1,15 +1,15 @@
 //4 задание
 public class CompareNumbers {
     public static void main(String[] args) {
-        int a = 90;
-        int b = 111;
-        if (a >= b){
+        compareNumbers();
+    }
+    public static void compareNumbers() {
+        int a = 10;
+        int b = 5;
+        if (a >= b) {
             System.out.println("a >= b");
-        }
-        else{
+        } else {
             System.out.println("a < b");
         }
-        }
-
     }
-
+}
