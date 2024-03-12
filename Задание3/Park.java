@@ -45,11 +45,24 @@ public class Park {
         }
         @Override
         public String toString() {
-            return "Attraction{" +
+            return "Атракцион{" +
                     "Название:'" + name + '\'' +
                     ", Время работы:'" + operationHours + '\'' +
                     ", Цена: " + price +
                     '}';
+        }
+    }
+}
+class ParkDemo {
+    public static void main(String[] args) {
+
+        Park disneyLand = new Park("Диво остров");
+
+        disneyLand.addAttraction("Шейкер", "10:00 - 22:00", 150);
+        disneyLand.addAttraction("Шторм", "09:00 - 20:00", 300);
+
+        for (Park.Attraction attraction : disneyLand.getAttractions()) {
+            System.out.println(attraction.toString());
         }
     }
 }
